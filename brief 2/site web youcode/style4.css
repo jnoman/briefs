@@ -27,12 +27,12 @@ header{
     display: flex;
 }
 ul{  
-    margin-left: 20px;
+    margin-left: 5px;
     margin-top: 40px;
 }
 li{ 
     display: inline;
-    padding: 10px;
+    padding: 5px;
     font-size: 14px;
 }
 a{
@@ -45,7 +45,7 @@ a:hover{
 }
 .logo{
     
-    margin-left: 250px;
+    margin-left: 100px;
     position: relative;
     top: 20px;
     
@@ -61,12 +61,12 @@ button{
     border: 0px;
     margin-top: -10px;
     padding: 10px; 
-    border-radius: 25px;
+    border-radius: 20px;
     font-family: 'Roboto', sans-serif;
     text-transform: up10ercase;
     font-weight: 500;
     transition: all 0.3s ease 0s;
-    height: 50px;
+    height: 40px;
 }
 button:hover{
     background-color: white;
@@ -75,12 +75,12 @@ button:hover{
 }
 .btn4
 {
-    position: relative;
-    right: 250px;
     background-color:#038DFE;
     box-shadow: 0px 3px 50px #4A92CC;
-    width: 400px;
+    width: 500px;
     height: 50px;
+    position: relative;
+    left: 200px;
 }
 h1{
     color: #FFF;
@@ -346,10 +346,7 @@ color: #fff;
 }
 
 .cont12{
-    
     margin-left: 600px;
-    
-    
 }
 .cont12 > h1{
     
@@ -369,8 +366,7 @@ color: #fff;
     margin-top: 30px;
 }
 .genrale{
-    
-   padding-top: 100px;
+    padding-top: 100px;
     padding-bottom: 50px;
     
    
@@ -385,17 +381,8 @@ color: #fff;
     color: #2b2b2b;
     letter-spacing: 0.08em;
     position: relative;
-    right: 300px;
+    left: 100px;
     font-size: 30px;
-}
-.genrale > a{
-    
-    background-color: #038DFE;
-    border-radius: 10rem;
-    padding: 10px 130px;
-    color: #FFF;
-    font-family: 'Montserrat';
-    box-shadow: 0px 0px 60px 0px rgba(68, 197, 238, 0.6); 
 }
 footer{
     
@@ -412,11 +399,11 @@ footer{
     
 }
 .foo2 > p{
-    margin-left: 500px;
+    margin-left: 350px;
     margin-top: 30px;
 }
 .foo3{
-    padding-left: 360px;
+    padding-left: 300px;
 }
 .foo3 > p , .foo1 > p{
     color: #666666;
@@ -534,7 +521,7 @@ select
 {
     display: none;
     width: 30%;
-    height: 50%;
+    height: 60%;
     background-color:white;
     position: fixed;
     top: 25%;
@@ -576,12 +563,4 @@ select
     font-family: 'Roboto', sans-serif;
     height: 40px;
     width: 70%;
-}
-.lang
-{
-    position: fixed;
-    top: 10%;
-    left: 70%;
-    background-color: #FFF;
-    border-collapse: collapse;
 }
